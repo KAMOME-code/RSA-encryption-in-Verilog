@@ -1,5 +1,8 @@
 # RSA-encryption-in-Verilog
-Result = "A^B mod C", 8 bit RSA but easily extendable, no side channel attack resistance but power efficient
+Result = "A^B mod C", 8 bit RSA but easily extendable. 
+- no side channel attack resistance but power efficient
+- Do not put small number on "B" to protect "C" ( Chinese Reminder Theorem ). 
+- "C" must be always bigger than "Hreg" otherwise outcome is not correct. So, put a big number on "C".
 
 ## Design and Block diagram
 ![image](https://user-images.githubusercontent.com/53184086/187013008-5f9f7fa3-ce35-41cd-a43e-b5351b9d8fcd.png)
