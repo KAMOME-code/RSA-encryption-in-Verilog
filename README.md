@@ -1,5 +1,5 @@
 # RSA-encryption-in-Verilog
-Result = "A^B mod C", 8 bit RSA but easily extendable. 
+Simple RSA, Result = "A^B mod C", 8 bit RSA but easily extendable. 
 - No side channel attack resistance but power efficient
 - Do not put small number on "A"&"B" otherwise encription does not work. 
 - "C" must be always bigger than "Hreg" otherwise outcome is not correct. So, put a big number on "C".
