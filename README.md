@@ -5,12 +5,12 @@ Result = "A^B mod C", 8 bit RSA but easily extendable.
 - "C" must be always bigger than "Hreg" otherwise outcome is not correct. So, put a big number on "C".
 
 ## Design and Block diagram
-![image](https://user-images.githubusercontent.com/53184086/187013008-5f9f7fa3-ce35-41cd-a43e-b5351b9d8fcd.png)
-![image](https://user-images.githubusercontent.com/53184086/187013095-57d30a67-18eb-48cb-b67d-47c43f80e30d.png)
-![image](https://user-images.githubusercontent.com/53184086/187013113-a8e52322-d609-4589-bcd0-f700524d7971.png)
-![image](https://user-images.githubusercontent.com/53184086/187013133-0645c340-5cda-4f97-8281-ee26c67f703c.png)
-![image](https://user-images.githubusercontent.com/53184086/187013152-51da8d00-fa04-4679-a6b8-ed046a66c781.png)
-![image](https://user-images.githubusercontent.com/53184086/187013168-fc597118-407d-4a85-8d8e-687972ad3d40.png)
+![image](https://user-images.githubusercontent.com/53184086/187070914-c816e196-ee8f-4762-ab9b-9c5127eaa2a4.png)
+![image](https://user-images.githubusercontent.com/53184086/187070940-46ad9f74-ef91-4b26-8d59-0f57b17252bb.png)
+![image](https://user-images.githubusercontent.com/53184086/187070952-771f428b-db3f-4d73-9ce5-ac5298db519a.png)
+![image](https://user-images.githubusercontent.com/53184086/187070973-e89188cf-9434-47d4-8f2f-b2c0e5256d88.png)
+![image](https://user-images.githubusercontent.com/53184086/187071014-42eddfa1-d0a7-4612-9bee-63406499c4a4.png)
+![image](https://user-images.githubusercontent.com/53184086/187071081-be36b685-772e-405e-9617-1de014e70dce.png)
 
 ## State diagram and Coding
 ![image](https://user-images.githubusercontent.com/53184086/187013238-017023a1-50bd-47af-8812-4ab58d1ff9db.png)
