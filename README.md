@@ -4,7 +4,7 @@ Simple RSA, Result = "A^B mod C", 8 bit RSA but easily extendable.
 - Do not put small number on "A"&"B" otherwise encription does not work. 
 - "C" must be always bigger than "Hreg" otherwise outcome is not correct. So, put a big number on "C".
 
-##Intro
+## Intro
 ![image](https://user-images.githubusercontent.com/53184086/187134692-070b84e4-bddc-42c6-adce-d75f3bafddb0.png)
 ![image](https://user-images.githubusercontent.com/53184086/187134756-56e77ffe-e34a-48c4-9aa9-63900c50682c.png)
 ![image](https://user-images.githubusercontent.com/53184086/187134795-fbd05446-f1d9-4f2a-90e0-740404c26f81.png)
