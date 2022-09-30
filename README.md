@@ -3,6 +3,7 @@ Simple RSA, Result = "A^B mod C", 8 bit RSA but easily extendable.
 - No side channel attack resistance but power efficient
 - Do not put small number on "A"&"B" otherwise encription does not work. 
 - "C" must be always bigger than "Hreg" otherwise outcome is not correct. So, put a big number on "C".
+- This is the simplest type of RSA. Use "Montgomery multiplication" for practical design.
 
 ## Intro
 ![image](https://user-images.githubusercontent.com/53184086/187134692-070b84e4-bddc-42c6-adce-d75f3bafddb0.png)
